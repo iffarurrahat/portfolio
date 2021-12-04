@@ -5,7 +5,7 @@
     margin: 10px 0;
 }
 .portfolioCard:hover{
-    background-color: #813AFE;
+    background-color: #590814;
     border-radius: 5px;
 }
 .projectImage {
@@ -13,7 +13,7 @@
     display: block;
     border-radius: 5px;
     max-width: 100%;
-    height: 840px;
+    height: 500px;
     transition:all.3s ease;
     backface-visibility: hidden;
 }

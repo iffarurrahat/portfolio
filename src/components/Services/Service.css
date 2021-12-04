@@ -5,14 +5,16 @@
     cursor: pointer;
     border: 1px solid #F0F0F0;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #ddd;
     transition: all ease .5s;
 }
 .serviceCard:hover{
     background-color: #F0F0F0;
 }
 .title{
-    color: #813AFE;
+    color: #fff;
+    font-size: 40px;
+    margin: 30px 0 40px 0;
 }
 .serviceName{
     margin-top: 1.5rem;
@@ -25,7 +27,7 @@
     margin-top: 1rem;
 }
 .service-icon{
-    color: #813AFE;
+    color: #590814;
     font-size: 38px;
 }
 .read-more{

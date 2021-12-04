@@ -1,21 +1,30 @@
 .contact-title{
     font-size: 1.4rem;
     margin-top: 2rem;
-    color: gray;
+    color: #fff;
 }
 .contact-info{
-    color: gray;
+    color: #fff;
 }
 .footer-icon{
     cursor: pointer;
     transition: all ease .5s;
 }
 .footer-icon:hover{
-    color: #813AFE;
+    color: #590814;
 }
 
-.copy-write{
+.copy-write, 
+.textDes{
     text-align: center;
     font-size: 15px;
-    color: gray;
+    color: #fff;
+}
+.bg-light{
+    background-color: rgb(32, 32, 32) !important ;
+}
+
+.send-btn{
+    background-color: #590814 !important ;
+    color: #fff;
 }

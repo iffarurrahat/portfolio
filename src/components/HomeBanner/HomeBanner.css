@@ -2,8 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .topFixedBanner{
-    background-image: url("https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926__340.jpg");
-    min-height: 500px;
+    background-image: url("https://i.ibb.co/tzYBVMP/banner-bg.jpg");
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body{
 }
 .topBannerOverlay{
     position: absolute;
-    min-height: 500px;
+    min-height: 600px;
     width: 100%;
     background: rgba(0,0,0,0.7);
 }
@@ -20,12 +20,12 @@ body{
 }
 
 .btn-outline-primary {
-    color: #813AFE !important;
-    border-color: #813AFE !important;
+    color: #590814 !important;
+    border-color: #590814 !important;
     transition: all ease .5s;
 }
 .btn-outline-primary:hover{
-    background-color: #813AFE !important;
+    background-color: #590814 !important;
     color: white !important;
 }
 .topContent{

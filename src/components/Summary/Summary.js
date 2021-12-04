@@ -8,75 +8,75 @@ import './Summary.css';
 
 const Summary = () => {
     return (
-        <Fragment>
-            <Container fluid={true} className="SummaryBanner mt-5">
-                <Container className="text-center">
-                    <Row>
-                        <Col lg={12} md={12} sm={12}>
-                            <Row className="countSection">
-                                <Col>
-                                    <FontAwesomeIcon className="icon" icon={faHandshake} />
-                                    <h1 className="countNumber">
-                                        <CountUp start={0} end={20}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>
-                                    </h1>
-                                    <h4 className="countTitle">Total Projects</h4>
-                                    <hr className="bg-white w-25"/>
-                                </Col>
-                                <Col>
-                                    <FontAwesomeIcon className="icon" icon={faHeart} />
-                                    <h1 className="countNumber">
-                                        <CountUp start={0} end={15}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>
-                                    </h1>
-                                    <h4 className="countTitle">Total Clients</h4>
-                                    <hr className="bg-white w-25"/>
-                                </Col>
-                                <Col>
-                                    <FontAwesomeIcon className="icon" icon={faCoffee} />
-                                    <h1 className="countNumber">
-                                        <CountUp start={0} end={2000}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>
-                                    </h1>
-                                    <h4 className="countTitle">Cup of Tea</h4>
-                                    <hr className="bg-white w-25"/>
-                                </Col>
+      <Fragment>
+        <Container fluid={true} className="SummaryBanner mt-5">
+          <Container className="text-center">
+            <Row>
+              <Col lg={12} md={12} sm={12}>
+                <Row className="countSection">
+                  <Col>
+                    <FontAwesomeIcon className="icon" icon={faHandshake} />
+                    <h1 className="countNumber">
+                      <CountUp start={0} end={12}>
+                        {({ countUpRef, start }) => (
+                          <VisibilitySensor onChange={start} delayedCall>
+                            <span ref={countUpRef} />
+                          </VisibilitySensor>
+                        )}
+                      </CountUp>
+                    </h1>
+                    <h4 className="countTitle">All Projects</h4>
+                    <hr className="bg-white w-25" />
+                  </Col>
+                  <Col>
+                    <FontAwesomeIcon className="icon" icon={faHeart} />
+                    <h1 className="countNumber">
+                      <CountUp start={0} end={25}>
+                        {({ countUpRef, start }) => (
+                          <VisibilitySensor onChange={start} delayedCall>
+                            <span ref={countUpRef} />
+                          </VisibilitySensor>
+                        )}
+                      </CountUp>
+                    </h1>
+                    <h4 className="countTitle">All Clients</h4>
+                    <hr className="bg-white w-25" />
+                  </Col>
+                  <Col>
+                    <FontAwesomeIcon className="icon" icon={faCoffee} />
+                    <h1 className="countNumber">
+                      <CountUp start={0} end={3400}>
+                        {({ countUpRef, start }) => (
+                          <VisibilitySensor onChange={start} delayedCall>
+                            <span ref={countUpRef} />
+                          </VisibilitySensor>
+                        )}
+                      </CountUp>
+                    </h1>
+                    <h4 className="countTitle">Cup of Tea with Client</h4>
+                    <hr className="bg-white w-25" />
+                  </Col>
 
-                                <Col>
-                                    <FontAwesomeIcon className="icon" icon={faCode} />
-                                    <h1 className="countNumber">
-                                        <CountUp start={0} end={30000}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>
-                                    </h1>
-                                    <h4 className="countTitle">Lines Of Codes</h4>
-                                    <hr className="bg-white w-25"/>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                </Container>
-            </Container>
-        </Fragment>
+                  <Col>
+                    <FontAwesomeIcon className="icon" icon={faCode} />
+                    <h1 className="countNumber">
+                      <CountUp start={0} end={25600}>
+                        {({ countUpRef, start }) => (
+                          <VisibilitySensor onChange={start} delayedCall>
+                            <span ref={countUpRef} />
+                          </VisibilitySensor>
+                        )}
+                      </CountUp>
+                    </h1>
+                    <h4 className="countTitle">Codes of think</h4>
+                    <hr className="bg-white w-25" />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
+        </Container>
+      </Fragment>
     );
 };
 

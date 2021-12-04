@@ -10,16 +10,16 @@ import Contact from "../components/Contact/Contact";
 
 const HomePage = () => {
     return (
-        <>
-            <Header />
-            <HomeBanner />
-            <About />
-            <Services />
-            <Projects />
-            <Summary />
-            <Blog />
-            <Contact/>
-        </>
+      <>
+        <Header />
+        <HomeBanner />
+        <About />
+        <Services />
+        <Projects />
+        <Summary />
+        {/* <Blog /> */}
+        <Contact />
+      </>
     );
 };
 
